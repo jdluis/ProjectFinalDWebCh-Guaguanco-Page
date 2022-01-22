@@ -17,6 +17,7 @@
 :root {
     /*tamaño letras*/
     --size-h1: 40px;
+    --size-h2: 20px;
     --size-text:22px;
 
     /*paleta de colores*/
@@ -38,14 +39,20 @@ a {
     text-decoration: none;
 }
 
+.text-importante {
+    font-size: var(--size-text);
+}
 .btn {
 	border: 1px solid #000;
-	padding: 10px;	
+    border-radius: 4%;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.75);  
+	padding: 10px 5em;	
     background-color: #fff;
     color: var(--secondary);
     font-weight: 600;
     font-size: 18px;
     text-align: center;
+    margin: auto;
 }
 
 .btn:hover {
@@ -67,6 +74,7 @@ a {
 /*--container global--*/
 .container {
     max-width: 1200px;
+    height: 100%;
     border: 1px solid rgb(29, 27, 27);
     margin: 10rem auto;
     background-color: #fff; 
@@ -169,7 +177,6 @@ background-color:#0b4d7f;
     margin: auto;
     width: 30em;
     padding: 1em;
-
 }
 
 .flex-child__img {
@@ -201,3 +208,40 @@ background-color:#0b4d7f;
     margin: auto;
 }
 
+.link-container {
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+                /*FOOTER*/
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-top: 5em;
+    border-top:3px solid rgba(0, 0, 0, 0.363);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: var(--quintenary);
+}
+
+.footer-item {
+    margin: auto;
+}
+
+.title-h2 {
+    font-size: var(--size-h2);
+    color: #fff;
+}
+
+
+.footer-list__item {
+    padding-left: 5px;
+}
+
+.footer-list__item:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
