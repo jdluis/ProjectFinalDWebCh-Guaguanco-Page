@@ -11,81 +11,89 @@
     <meta name="keywords" content="guaguanco, festival, canarias, promo, informacion, codigo promotor"/>
 
     <!--Links Start-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/3ffbeed2f4.js" crossorigin="anonymous"></script>
     <!--Links Finish-->
 </head>
 <!--Proyecto Coder House - 1er desafío entregable-->
 <body> 
     <!--Contenedor Padre Start-->
-    <div>
+    <div class="container">
          <!--Header-Nav Start--> 
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/evento.html">Evento</a></li>
-                    <li><a href="pages/hotel.html">Hotel</a></li>
-                    <li><a href="pages/transporte.html">Transporte</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
+        <header class="header">
+            <nav class="header-nav">
+                <ul class="header-nav__list textUp">
+                    <li class="header-nav__item">
+                        <a href="index.html" class="header-nav__link">Inicio</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="pages/evento.html" class="header-nav__link">Evento</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="pages/hotel.html" class="header-nav__link">Hotel</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="pages/transporte.html" class="header-nav__link">Transporte</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="pages/contacto.html" class="header-nav__link">Contacto</a>
+                    </li>
                 </ul>
             </nav>
-            <div> 
-                <a href="index.html"><img src="img/dani_orig.png" alt="logo promotor dani de luis"></a>
+            <div class="header-logo"> 
+                <a class="header-logo__link" href="/"><img class="header-logo__img" src="img/dani_orig.png" alt="logo promotor dani de luis"></a>
             </div>
+            <!--News Start--> 
+            <div class="slide">
+                <article class="slide-item">
+                    <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/posterPromo.png" alt="Programación"></a>
+                </article>
+            </div>
+        <!--News Finish--> 
         </header>
         <!--Header-Nav Finish--> 
 
-        <!--News Start--> 
-        <div>
-            <article>
-                <a href="#"><img src="" alt="Artistas"></a>
-            </article>
-            <article>
-                <a href="#"><img src="" alt="Programación"></a>
-            </article>
-            <article>
-                <a href="#"><img src="" alt="Otras Relevantes"></a>
-            </article>
-        </div>
-        <!--News Finish--> 
 
         <!--Sobre la Web Start--> 
-        <main>
-            <div>
-                <img src="" alt="guaguanco festival">
+        <main class="flex-father">
+            <div class="flex-child">
+                <img class="flex-child__img" src="img/catelFes.png" alt="guaguanco festival">
             </div>
-            <div>
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ad molestias deserunt officia laboriosam consectetur delectus veniam sint vel architecto.</p>
+            <div class="flex-child">
+                <h2 class="flex-child__title">¿Necesitas ayuda con la organizacion de tu viaje al festival?</h2>
+                <p class="flex-child__text">Consigue los vuelos mas baratos, mira las opciones que tienes para llegar al Hotel desde el aeropuerto, conoce exactamente donde tienes que ir desde ya! todo eso y mas aprovechando mi descuento de promotor oficial del festival.</p>
             </div>
         </main>
         <!--Sobre la Web Finish--> 
 
         <!--Servicio Start--> 
-        <aside>
-            <div>
-                <div>
+        <aside class="flex-father flex-father__colum">
+            <div class="flex-father">
+                <div class="flex-child">
                     <div>
-                        <h3>Title</h3>
+                        <h3 class="flex-child__title ">Gran Canaria</h3>
                     </div>
                     <div>
-                        <img src="" alt="GC">
+                        <img class="flex-child__img " src="img/dani_orig.png" alt="GC">
                     </div>
                 </div>
-                <div>
+                <div class="flex-child">
                     <div>
-                        <h3>Title</h3>
+                        <h3 class="flex-child__title ">Tenerife</h3>
                     </div>
                     <div>
-                        <img src="" alt="TNF">
+                        <img class="flex-child__img" src="img/dani_orig.png" alt="TNF">
                     </div>
                 </div>
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit modi cumque vel sunt molestiae expedita consequuntur fugit quisquam quia tempora.</p>
+            <div class="flex-child__full">
+                <p class="flex-child__text">Si no sabes que vuelo coger o no quieres estar pendiente de cual sera el mas brato, mira mi seccion de Vuelos y descubre cual es la mejor opción.</p>
             </div>
-            <button><a href="pages/transporte.html">Botón</a></button>
+            <div class="flex-child flex-child__full">
+                <a class="btn" href="pages/transporte.html">Ir a Vuelos</a>
+            </div>
         </aside>
          <!--Servicio Finish--> 
 
@@ -111,5 +119,6 @@
         <!--Footer Finish--> 
     </div>
     <!--Contenedor Padre Finish-->
+    
 </body>
 </html>
