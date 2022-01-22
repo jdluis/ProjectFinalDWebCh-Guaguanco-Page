@@ -204,14 +204,14 @@ background-color:#0b4d7f;
 }
 
 .flex-child__full {
-    width: 80% ;
+    padding: 0 8em;
     margin: auto;
 }
 
 .link-container {
-    text-align: center;
-    width: 80%;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
                 /*FOOTER*/
