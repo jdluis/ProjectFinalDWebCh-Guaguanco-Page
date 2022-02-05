@@ -54,12 +54,11 @@
         <!--News Finish--> 
         </header>
         <!--MOBILE Header-Nav Finish--> 
-
-        <header class="header-mv">
+        <header class="header-mv hidden">
                 <input type="checkbox" id="btnControl"/>
-                <label for="btnControl">Menu
-            <nav class="header-nav">
-                <ul class="mv-nav__list textUp ">
+                <label id="btn-nav" for="btnControl"><i class="fas fa-3x fa-ellipsis-h"></i>
+            <nav class="mvHeader-nav">
+                <ul class="mv-nav__list textUp">
                     <li class="header-nav__item">
                         <a href="index.html" class="header-nav__link">Inicio</a>
                     </li>
@@ -81,21 +80,20 @@
             <div class="header-logo"> 
                 <a class="header-logo__link" href="/"><img class="header-logo__img" src="img/dani_orig.png" alt="logo promotor dani de luis"></a>
             </div>
-            <!--News Start--> 
-            <div class="slide">
-                <article class="slide-item">
-                    <div class="img-contain">
-                        <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part1Promo.png" alt="Programación"></a>
-                        <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part2Promo.png" alt="Programación"></a>    
-                    </div>
-                  </article>
-                
-            </div>
-        <!--News Finish--> 
         </header>
-        <!--MOBILE Header-Nav Finish--> 
-
-
+       
+     
+          <!--News Start--> 
+          <div class="mv-slide hidden">
+            <article class="slide-item">
+                <div class="img-contain">
+                    <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part1Promo.png" alt="Programación"></a>
+                    <a class="slide-img" href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part2Promo.png" alt="Programación"></a>    
+                </div>
+              </article>
+         </div>
+    <!--News Finish--> 
+    <!--MOBILE Header-Nav Finish--> 
         <!--Sobre la Web Start--> 
         <main class="main">
             <div class="flex-father">
@@ -159,9 +157,9 @@
             <div class="footer-item">
                 <h4 class="title-h2">Redes Sociales</h4>
                 <ul class="footer-list">
-                    <li class="footer-list__item"><a href="https://www.instagram.com/guaguancofestival/?hl=es"></a>Instagram</li>
-                    <li class="footer-list__item"><a href="https://es-es.facebook.com/GuaguancoFestival/"></a>Facebook</li>
-                    <li class="footer-list__item"><a href="https://www.youtube.com/user/GuaguancoBCN"></a>Youtube</li>
+                   <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i class="fab fa-2x fa-instagram footer-list__item"></i></a>
+                   <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i class="fab fa-2x fa-facebook footer-list__item"></i></a>
+                   <a href="https://www.youtube.com/user/GuaguancoBCN"> <i class="fab fa-youtube fa-2x footer-list__item"></i></a>
                 </ul>
             </div>
         </footer>
