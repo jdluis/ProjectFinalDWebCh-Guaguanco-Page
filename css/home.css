@@ -59,11 +59,6 @@
   box-shadow: 3px 3px rgba(0, 0, 0, 0.644);
 }
 
-.flex-child__title {
-  font-size: var(--size-h1);
-  text-align: center;
-  margin-bottom: 2em;
-}
 
 .flex-child__text {
   text-align: center;

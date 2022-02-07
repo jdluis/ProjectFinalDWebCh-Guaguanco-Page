@@ -81,6 +81,9 @@ a {
 .title-2 {
   text-decoration: underline;
   color: var(--quantenary);
+  font-size: var(--size-h1);
+  text-align: center;
+  margin-bottom: 1.5em;
 }
 
 /*****************
@@ -253,7 +256,7 @@ RESPONSIVE DESING
      Boton para abrir y cerrar menu nav en MV
     *************/
   #btnControl:checked + label > nav {
-    display: none;
+    display: block;
   }
 
   #btnControl {
