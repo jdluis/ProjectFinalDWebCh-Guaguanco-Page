@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,148 +8,162 @@
     <title>Información Guaguancó Festival</title>
     <meta name="author" content="www.jdluis.com" />
     <meta name="copyright" content="jdluis" />
-    <meta name="description" content="Te brindo toda la informacion actualizada del Guaguancó Festival 2022 | si vienes de Canarias yo soy tu Promotor"/>
-    <meta name="keywords" content="guaguanco, festival, canarias, promo, informacion, codigo promotor"/>
+    <meta name="description"
+        content="Te brindo toda la informacion actualizada del Guaguancó Festival 2022 | si vienes de Canarias yo soy tu Promotor" />
+    <meta name="keywords" content="guaguanco, festival, canarias, promo, informacion, codigo promotor" />
 
     <!--Links Start-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/event.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <!--Links Finish-->
+    <script src="https://kit.fontawesome.com/3ffbeed2f4.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-     <!--Header-Nav Start--> 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="evento.html">Evento</a></li>
-                <li><a href="hotel.html">Hotel</a></li>
-                <li><a href="transporte.html">Transporte</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+     <!--Contenedor Padre Start-->
+     <div class="container">
+       <!--Header-Nav Start--> 
+       <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav__list textUp">
+                <li class="header-nav__item">
+                    <a href="../index.html" class="header-nav__link">Inicio</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="evento.html" class="header-nav__link">Evento</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="hotel.html" class="header-nav__link">Hotel</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="transporte.html" class="header-nav__link">Transporte</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="contacto.html" class="header-nav__link">Contacto</a>
+                </li>
             </ul>
         </nav>
-        <div> 
-            <a href="../index.html"><img src="../img/dani_orig.png" alt="logo promotor dani de luis"></a>
+        <div class="header-logo"> 
+            <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png" alt="logo promotor dani de luis"></a>
+        </div>
+         <!--News Start--> 
+         <div class="slide">
+            <article class="slide-item">
+                <a href=""><img  class="slide__img" style="max-height: 350px;" src="../img/rumbata.png" alt=""></a>
+            </article>
+        </div>
+    <!--News Finish--> 
+    </header>
+    <!--MOBILE Header-Nav Finish--> 
+    <header class="header-mv hidden">
+            <input type="checkbox" id="btnControl"/>
+            <label id="btn-nav" for="btnControl"><i class="fas fa-3x fa-ellipsis-h"></i>
+        <nav class="mvHeader-nav">
+            <ul class="mv-nav__list textUp">
+                <li class="header-nav__item">
+                    <a href="index.html" class="header-nav__link">Inicio</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="pages/evento.html" class="header-nav__link">Evento</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="pages/hotel.html" class="header-nav__link">Hotel</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="pages/transporte.html" class="header-nav__link">Transporte</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="pages/contacto.html" class="header-nav__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </label>
+        <div class="header-logo"> 
+            <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png" alt="logo promotor dani de luis"></a>
         </div>
     </header>
-    <!--Header-Nav Finish--> 
-
-    <!--Main Start-->
-    <main>
-        <div>
-            <img src="http://www.guaguancofestival.com/uploads/1/2/9/1/12916801/cartel-guaguanco-festival-2022-web_orig.png" alt="Cartel Promocional Festival Guaguanco 2022">
-            <img src="" alt="">
+ <!--News Start--> 
+ <div class="mv-slide hidden">
+    <article class="slide-item">
+        <div class="img-contain">
+            <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="../img/rumbata.png" alt="concierto"></a>  
         </div>
-        <section>
-            <h2>Artistas</h2>
-            <div>
-                <!-- 1 Artista Start-->
-                <div>
-                    <div>
-                        <h3>Name Artist</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatum.</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <iframe src="" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <!-- 1 Artista Finish-->
-                <!-- 2 Artista Start-->
-                <div>
-                    <div>
-                        <h3>Name Artist</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quod.</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <iframe src="" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <!-- 2 Artista Finish-->
-                <!-- 3 Artista Start-->
-                <div>
-                    <div>
-                        <h3>Name Artist</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, aperiam!</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <iframe src="" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <!-- 3 Artista Finish-->
-                <!-- 4 Artista Start-->
-                <div>
-                    <div>
-                        <h3>Name Artist</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, minus.</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <iframe src="" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <!-- 4 Artista Finish-->
-            </div>
-        </section>
+      </article>
+ </div>
+<!--News Finish--> 
+<!--MOBILE Header-Nav Finish--> 
+    <!--Main Start-->
+    <main class="main">
+       
+
+        <!--PROGRAMA-->
         <section>
             <h2>Programa</h2>
             <div>
                 <img src="" alt="">
             </div>
         </section>
+
+        <section>
+            <h2>Artistas</h2>
+            <p>En el guaguanco podremos ver artistas internacionales de la talla de Maykel Fonts o Yoannis Tamayo, si aun no sabes quienes son te animo a verlos en youtube.
+                Aprenderas distintos estilos y interpretaciones de esta maravillosa musica que nos brindaran en directo en cada taller de Afro. Ademas disfrutaremos de las parejas mas jovenes y encantadoras de este mundo, tanto de nuestra tierra como de fuera, como pueden ser Yohan y Elaine o Kevin Cano y Geyza.
+            </p>
+            <a href="http://www.guaguancofestival.com/artists.html">Para ver todos los artistas visita la pagina oficial.</a>
+        </section>
     </main>
     <!--Main Finish-->
 
-    <!--Aside Start--> 
+    <!--Aside Start-->
     <aside>
         <article>
-            <h3>title</h3>
+            <h3>Historia del Festival</h3>
             <div>
-               <a href="#"><img src="" alt="OTHER"></a>
+                <a href="#"><img src="" alt="OTHER"></a>
             </div>
         </article>
         <article>
-           <h3>title</h3>
-           <div>
-              <a href="#"><img src="" alt="OTHER"></a>
-           </div>         </article>
+            <h3>Campeonato</h3>
+            <div>
+                <a href="#"><img src="" alt="OTHER"></a>
+            </div>
+        </article>
         <article>
-           <h3>title</h3>
-           <div>
-              <a href="#"><img src="" alt="OTHER"></a>
-           </div>         </article>
+            <h3>Shows</h3>
+            <div>
+                <a href="#"><img src="" alt="OTHER"></a>
+            </div>
+        </article>
     </aside>
-    <!--Aside Finish--> 
+    <!--Aside Finish-->
 
     <!--Footer Start-->
-    <footer>
-        <div>
-            <h4>Legales</h4>
-            <ul>
-                <li><a href=""></a>Acuerdos y Condiciones.</li>
-                <li><a href=""></a>Copyright.</li>
-                <li><a href=""></a>Normas de la Web.</li>
+    <footer class="footer">
+        <div class="footer-item">
+            <h4 class="title-h2">Legales</h4>
+            <ul class="footer-list">
+                <li class="footer-list__item"><a href=""></a>Acuerdos y Condiciones.</li>
+                <li class="footer-list__item"><a href=""></a>Copyright.</li>
+                <li class="footer-list__item"><a href=""></a>Normas de la Web.</li>
             </ul>
         </div>
-        <div>
-            <h4>Redes Sociales</h4>
-            <ul>
-                <li><a href=""></a>Instagram</li>
-                <li><a href=""></a>Facebook</li>
-                <li><a href=""></a>Youtube</li>
+        <div class="footer-item">
+            <h4 class="title-h2">Redes Sociales</h4>
+            <ul class="footer-list">
+                <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i
+                        class="fab fa-2x fa-instagram footer-list__item"></i></a>
+                <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i
+                        class="fab fa-2x fa-facebook footer-list__item"></i></a>
+                <a href="https://www.youtube.com/user/GuaguancoBCN"> <i
+                        class="fab fa-youtube fa-2x footer-list__item"></i></a>
             </ul>
         </div>
     </footer>
     <!--Footer Finish-->
+    </div>
+    <!--Contenedor Padre Finish-->
 </body>
+
 </html>
