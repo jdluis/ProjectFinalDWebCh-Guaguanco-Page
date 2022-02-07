@@ -148,25 +148,6 @@ RESPONSIVE DESING
   /************
      Boton para abrir y cerrar menu nav en MV
     *************/
-  #btnControl:checked + label > nav {
-    display: none;
-  }
-
-  #btnControl {
-    display: none;
-  }
-
-  #btn-nav {
-    display: inline-block;
-    width: 100%;
-    cursor: pointer;
-    color: var(--quantenary);
-    background-color: var(--tertiary);
-  }
-
-  #btn-nav i:hover {
-    opacity: 0.8;
-  }
 
   .mvHeader-nav {
     position: absolute;
