@@ -20,6 +20,7 @@
 
  .img-container img {
      object-fit: contain;
+     width: 100%;
 
  }
 
@@ -49,11 +50,13 @@
  }
 .card {
     position: relative;
-    left: 15%;
+    left: 0%; /*for change vertical align for now */
     transform: translate(-50%,-50%);
     max-width: 360px;
     max-height: 400px;
     background: #000;
+    align-self: center;
+     margin: auto;
 }
 .card .image {
     width: 100%;
@@ -133,15 +136,10 @@
 
 .link-artist {
     position: absolute;
-    top:80%;
-    left: 35%;
+    bottom: 10%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
 }
 
 
-
- /********
- <<<Aside>>>
- ********/
-
-
- 
