@@ -86,6 +86,19 @@ a {
   margin-bottom: 1.5em;
 }
 
+.title-3 {
+  color: var(--quantenary);
+  font-size: var(--size-h1);
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+.title-4 {
+  color: var(--tertiary);
+  padding: 1em;
+  font-size: 1.3em;
+}
+
 /*****************
 FINISH ESTILOS GENERALES 
  *****************/
