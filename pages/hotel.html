@@ -12,6 +12,7 @@
 
     <!--Links Start-->
     <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/hotel.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <!--Links Finish-->
     <script src="https://kit.fontawesome.com/3ffbeed2f4.js" crossorigin="anonymous"></script>
@@ -43,13 +44,6 @@
           <div class="header-logo"> 
               <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png" alt="logo promotor dani de luis"></a>
           </div>
-          <!--News Start--> 
-          <div class="slide">
-              <article class="slide-item">
-                  <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="../img/posterPromo.png" alt="Programación"></a>
-              </article>
-          </div>
-      <!--News Finish--> 
       </header>
       <!--MOBILE Header-Nav Start--> 
       <header class="header-mv hidden">
@@ -81,13 +75,12 @@
       </header>
   <!--MOBILE Header-Nav Finish-->  
     <!--Main Content Start-->
-    <main>
+    <main class="main">
         <!--Hotel-Intro Start-->
-        <section>
-            <h2>Hotel</h2>
-            <div>
+        <section class="intro-contain">
+            <h2 class="title-2">Evenia Olympic Resort</h2>
+            <div class="video-contain">
                 <iframe 
-                    width="600" 
                     height="350" 
                     src="https://www.youtube.com/embed/0C5flMvHUcU" 
                     title="YouTube video player" 
@@ -96,100 +89,81 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <div>
-                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, amet.</blockquote> 
+            <div class="text">
+                <blockquote>Hotel 4 estrellas especializado en acoger congresos de baile de todo tipo (mas de 15 al año)</blockquote> 
             </div>
         </section>
          <!--Hotel-Intro Finish-->
 
-        <!--PensionCompleta Start-->
-        <section>
-            <h3>¿Pension Completa?</h3>
+        <!--reserva-option Start-->
+        <section class="reserva-contain">
             <div>
-                <img src="" alt="">
+                <h3 class="title-3">¿Como reservar?</h3>
             </div>
-            <div>
-                <div>
-                    <h4>¿Que Incluye?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius assumenda temporibus architecto qui consectetur. Vero.</p>
+            <div class="flex-3x3">
+                <div class="flex-3x3__element">
+                    <h4 class="title-4">Paga y disfruta</h4>
+                    <p>Despreocupate de estar pendiente de entrar en la web, llamando por equivocaciones o cambios inesperados, yo me ocupo de todo.</p>
                 </div>
-                <div>
-                    <h4>Buffet</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius assumenda temporibus architecto qui consectetur. Vero.</p>
+                <div class="flex-3x3__element">
+                    <h4 class="title-4">Paga a un conocido</h4>
+                    <p>Mucha gente ya tiene su Habitacion pero prefiere compartir la experiencia, solamente contacta con ellos y paga la diferencia.</p>
                 </div>
-                <div>
-                    <h4>¿Todo Incluido?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius assumenda temporibus architecto qui consectetur. Vero.</p>
+                <div class="flex-3x3__element">
+                    <h4 class="title-4">Hazlo tu mismo</h4>
+                    <p>Si prefieres controlar lo que pasa en todo momento por tu propia mano esta es la mejor opcion.</p>
                 </div>
             </div>
         </section>
-        <!--PensionCompleta Finish-->
+        <!--reserva-option Finish-->
 
-        <!--Roomate Start-->
-        <section>
-            <h3>Compañero de Habitacion</h3>
-            <div>
-                <div>
-                    <a href=""><img src="" alt=""></a>
+        <!--como reservar Start-->
+        <section class="reservaTutorial">
+            <h3 class="title-3">¿Como reservar tu habitacion?</h3>
+            <div class="flex-2x2">
+                <div class="img-container">
+                    <a href="http://www.guaguancofestival.com/hotel.html" target="_blank"><img src="../img/hotelTutorial.gif" alt="hotel reserva tutorial"></a>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius assumenda temporibus architecto qui consectetur. Vero.</p>
+                    <p>El primer paso es clicar sobre la imgen que ves aqui al lado o acceder directamente a la pagina del guaguanco, luego iremos a la pestaña Hotel, una vez alli buscaremos donde ponga <span class="text-importante">"RESERVAR TU HABITACION"</span>, una vez en la pagina del hotel solo tendremos que confirrmar las fechas, tipo de habitacion (doble o triple) y seguir los pasos tal y como vemos en la imagen.</p>
                 </div>
             </div>
         </section>
-        <!--Roomate Finish-->
+        <!--como reservar Finish-->
     </main>
     <!--Main Content Finish-->
 
     <!--Aside Start-->
-    <aside>
-        <div>
-            <div>
-                <h2>¿Que mas hacer en Lloret del Mar?</h2>
-                <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>   
-                    <li></li>
-                </ol>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-        </div>
-
-        <div>
-            <h2>Otros Hoteles</h2>
-            <div>
-                <article>
+    <aside class="aside">
+        <h2 class="title-3">Otros Hoteles</h2>
+        <div class="flex-3x3">
+                <article class="flex-3x3__element">
                     <div>
-                        <img src="" alt="">
+                        <img src="/img/hotelTutorial.gif" alt="">
                     </div>
                     <div>
-                        <h4>title</h4>
+                        <h4>Hotel alternativa 2</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
                     </div>
                 </article>
-                <article>
+                <article class="flex-3x3__element">
                     <div>
-                        <img src="" alt="">
+                        <img src="/img/hotelTutorial.gif" alt="">
                     </div>
                     <div>
-                        <h4>title</h4>
+                        <h4>Hotel alternativa 2</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
                     </div>
                 </article>
-                <article>
+                <article class="flex-3x3__element">
                     <div>
-                        <img src="" alt="">
+                        <img src="/img/hotelTutorial.gif" alt="">
                     </div>
                     <div>
-                        <h4>title</h4>
+                        <h4>Hotel alternativa 2</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
                     </div>
                 </article>
-            </div>
-        </div>
     </aside>
     <!--Aside Finish-->
 
