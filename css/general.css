@@ -99,7 +99,6 @@ a {
   font-size: 1.3em;
 }
 
-
 .flex-3x3 {
   margin-top: 3em;
   display: flex;
@@ -143,25 +142,25 @@ a {
 }
 
 .flex-2x2 div img {
-  width: 100%;;
+  width: 100%;
 }
 
 /*****************
 FINISH ESTILOS GENERALES 
  *****************/
- .container {
+.container {
   max-width: 1200px;
   height: 100%;
   border: 1px solid rgb(29, 27, 27);
-  margin:6em auto auto auto;
+  margin: 6em auto auto auto;
   background-color: #fff;
   position: sticky;
 }
 
- /*****************
+/*****************
     --HEADER--
  *****************/
- 
+
 .header {
   display: flex;
   flex-direction: column;
@@ -243,8 +242,7 @@ FINISH ESTILOS GENERALES
   position: absolute;
 }
 
-
- /*****************
+/*****************
     --FOOTER--
  *****************/
 
@@ -276,9 +274,6 @@ FINISH ESTILOS GENERALES
   font-weight: 600;
   cursor: pointer;
 }
-
-
-
 
 /****************
 RESPONSIVE DESING
