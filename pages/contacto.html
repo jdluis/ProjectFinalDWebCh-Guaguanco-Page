@@ -12,7 +12,8 @@
 
     <!--Links Start-->
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <!--Links Finish-->
     <script src="https://kit.fontawesome.com/3ffbeed2f4.js" crossorigin="anonymous"></script>
 </head>
@@ -44,13 +45,6 @@
         <div class="header-logo"> 
             <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png" alt="logo promotor dani de luis"></a>
         </div>
-        <!--News Start--> 
-        <div class="slide">
-            <article class="slide-item">
-                <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="../img/posterPromo.png" alt="Programación"></a>
-            </article>
-        </div>
-    <!--News Finish--> 
     </header>
     <!--MOBILE Header-Nav Start--> 
     <header class="header-mv hidden">
@@ -81,58 +75,39 @@
         </div>
     </header>
 <!--MOBILE Header-Nav Finish-->  
- 
-      <!--News Start--> 
-      <div class="mv-slide hidden">
-        <article class="slide-item">
-            <div class="img-contain">
-                <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part1Promo.png" alt="Programación"></a>
-                <a class="slide-img" href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img" src="img/part2Promo.png" alt="Programación"></a>    
-            </div>
-          </article>
-     </div>
-<!--News Finish--> 
-<!--MOBILE Header-Nav Finish--> 
 
     <!--Main Start-->   
-    <main>
+    <main class="main">
         <!--Section Start-->  
-        <div>
+        <div class="flex-2x2">
             <div>
                 <h2>Contactame</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem cupiditate modi reprehenderit, amet totam iste!</p>
+                <p>Utiliza el medio que mas comodo te resulte, te contesto lo antes posible, recuerda que si no encuentras lo que necesitas puedo crearlo para ti.</p>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="Instagram dani de luis promotor">
-                    <a href="">Instagram</a>
+            <div class="flex-col">
+                <div class="flex-3x3__element2">
+                    <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i class="fab fa-2x fa-instagram"> </i> </a>
+
                 </div>
-                <div>
-                    <img src="" alt="Facebook dani de luis promotor">
-                    <a href="">Facebook</a>
+                <div class="flex-3x3__element2">
+                    <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i class="fab fa-2x fa-facebook footer-list__item"></i></a>
                 </div>
-                <div>
-                    <img src="" alt="WhatsApp dani de luis promotor">
-                    <a href="">WhatsApp</a>
+                <div class="flex-3x3__element2">
+                    <i class="fab fa-whatsapp fa-2x footer-list__item"></i>
+                    <p>+34 608 99 14 69</p>
                 </div>
-                
             </div>
         </div>
          <!--Section Finish-->   
     
         <!--Form Start-->
-        <form>
+        <form class="form">
             <fieldset>
-                <legend>Contactame para lo que necesites</legend>
-                <div>
-                    <label for="name">Name: </label>
+                <div class="form-col">
+                <legend>Contactame para lo que necesites</legend>   
                     <input type="text" name="name" id="name" placeholder="Introduce tu nombre" required>
-                </div>
-                <div>
-                    <label for="lastName">Email: </label>
                     <input type="email" name="lastName" id="lastName" placeholder="Introduce tu email" required>
-                </div>
-                <div>
+                
                     <label for="categorias">Asunto: </label>
                     <select name="categorias" id="categoria" required>
                         <option value="" disabled selected></option>
@@ -142,43 +117,22 @@
                         <option value="transporte">Transporte</option>
                         <option value="otro">Otro</option>
                     </select>
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje: </label>
-                    <textarea name="dudaMensaje" placeholder="Describa brevemente su problema o duda:" id="mensaje" cols="40" rows="5" required></textarea>
-                </div>
+                    <textarea placeholder="Describa brevemente su problema o duda:" id="mensaje" cols="40" rows="5" required></textarea>
                 <div>
                     <label for="newsletter">¿Desea recibir el Newsletter?</label>
-                    <input type="checkbox" value="si" name="newsletter" id="newsletter">
+                    <input type="checkbox" value="si" id="newsletter" id="newsletter">
                 </div>
-                <input type="reset" value="Borrar información">
-                <input type="submit" value="Enviar">
+                <div>
+
+                    <input type="reset" value="Reset">
+                    <input class="submit" type="submit" value="Enviar">
+                </div>
+            </div>
             </fieldset>
         </form>
         <!--Form Finish-->
     </main>
     <!--Main Finish-->   
-
-     <!--Footer Start--> 
-     <footer class="footer">
-        <div class="footer-item">
-            <h4 class="title-h2">Legales</h4>
-            <ul class="footer-list">
-                <li class="footer-list__item"><a href=""></a>Acuerdos y Condiciones.</li>
-                <li class="footer-list__item"><a href=""></a>Copyright.</li>
-                <li class="footer-list__item"><a href=""></a>Normas de la Web.</li>
-            </ul>
-        </div>
-        <div class="footer-item">
-            <h4 class="title-h2">Redes Sociales</h4>
-            <ul class="footer-list">
-               <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i class="fab fa-2x fa-instagram footer-list__item"></i></a>
-               <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i class="fab fa-2x fa-facebook footer-list__item"></i></a>
-               <a href="https://www.youtube.com/user/GuaguancoBCN"> <i class="fab fa-youtube fa-2x footer-list__item"></i></a>
-            </ul>
-        </div>
-    </footer>
-    <!--Footer Finish--> 
 </div>
 <!--Contenedor Padre Finish-->
 </body>
