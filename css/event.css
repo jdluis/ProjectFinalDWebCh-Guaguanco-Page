@@ -43,7 +43,7 @@
 }
 .card {
   position: relative;
-  left: 0%; /*for change vertical align for now */
+  left: 15%; /*for change vertical align for now */
   transform: translate(-50%, -50%);
   max-width: 360px;
   max-height: 400px;
@@ -133,4 +133,27 @@
   left: 0%;
   text-align: center;
   width: 100%;
+}
+
+/*Small SIze*/
+@media (max-width: 1000px) {
+  .card {
+    left: 22%; /*for change vertical align for now */
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    position: relative;
+    left: 25%; /*for change vertical align for now */
+    transform: translate(-50%, -50%);
+    max-width: 260px;
+    max-height: 300px;
+  }
+
+  .cards-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
 }
