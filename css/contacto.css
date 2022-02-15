@@ -3,11 +3,13 @@ header {
 }
 
 main {
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 .text {
   padding-left: 2em;
 }
+
+
 
 .flex-3x3 {
   gap: 5em;
