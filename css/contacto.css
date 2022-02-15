@@ -75,3 +75,44 @@ form textarea {
     margin: auto;
   }
 }
+
+
+/*Animations*/
+
+.animate-text {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.animate-form {
+  animation-duration: 2s;
+  animation-name: slideDown;
+}
+
+@keyframes slideDown {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+.animate-social {
+  animation-duration: 2s;
+  animation-name: slideDown;
+}
