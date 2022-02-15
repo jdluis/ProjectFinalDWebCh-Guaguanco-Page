@@ -11,4 +11,4 @@ the help and support for different stages of the festival, from the flight to th
 
 ****************************
 
-Technologies: HTML3, CSS3, SASS, JS, BOOSTRAP 4.
+Technologies: HTML3, CSS3, SASS, JS, Bootstrap.
