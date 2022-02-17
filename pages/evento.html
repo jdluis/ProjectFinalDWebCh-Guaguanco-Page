@@ -90,29 +90,112 @@
           </nav>
           <!--Header-Nav Finish-->
         <!--News Start-->
-        <div class="mv-slide hidden">
-            <article class="slide-item">
-                <div class="img-contain">
-                    <a href="http://www.guaguancofestival.com/promoterdani.html"><img class="slide__img"
-                            src="../img/rumbata.png" alt="concierto"></a>
-                </div>
-            </article>
+      <div
+      id="carouselExampleIndicators"
+      class="container bg-primary carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="http://www.guaguancofestival.com/promoterdani.html">
+            <img
+              src="../img/rumbata.png"
+              class="d-block img-fluid w-100"
+              alt="..."
+            />
+          </a>
         </div>
-        <!--News Finish-->
-        <!--MOBILE Header-Nav Finish-->
+        <div class="carousel-item">
+            <a href="http://www.guaguancofestival.com/promoterdani.html">
+                <img
+                  src="../img/rumbata.png"
+                  class="d-block img-fluid w-100"
+                  alt="..."
+                />
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="http://www.guaguancofestival.com/promoterdani.html">
+                <img
+                  src="../img/rumbata.png"
+                  class="d-block img-fluid w-100"
+                  alt="..."
+                />
+            </a>
+        </div>
+      </div>
+    </div>
+    <!--News Finish-->
+       
         <!--Main Start-->
-        <main class="main">
+        <main class=" gap-5 gap-lg-0 m-5">
             <!--PROGRAMA-->
-            <section class="main-child">
-                <h2 class="title-2">Programa</h2>
-                <div class="img-container">
-                    <img src="../img/program.png" alt="program guaguancofestival">
+            <section class="row  gap-lg-0 m-md-5">
+                <div class="col-lg m-auto">
+                    <h2 class="text-center text-danger text-decoration-underline">Programa</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iste dolorum molestiae, assumenda culpa libero, distinctio molestias totam quia nostrum harum rem maxime aspernatur maiores dicta voluptatem accusamus dolore quod praesentium. Veniam corrupti omnis obcaecati itaque eveniet optio accusamus error!</p>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Artista</th>
+                            <th scope="col">Dia/Hora</th>
+                            <th scope="col">Tipo</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Jorge</td>
+                            <td>Sabado: 18-19</td>
+                            <td>Basico</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Maykel</td>
+                            <td>Sabado: 18-19</td>
+                            <td>Columbia</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hector</td>
+                            <td>Sabado: 18-19</td>
+                            <td>Abakua</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="col-lg">
+                    <img class="img-fluid" src="../img/program-2022.png" alt="program guaguancofestival">
                 </div>
             </section>
 
-            <section class="main-child">
-                <div class="text-contain">
-                    <h2 class="title-2">Artistas</h2>
+            <!--ARTISTAS Start-->
+            <section class="m-md-5">
+                <div class="">
+                    <h2 class="text-center text-danger text-decoration-underline ">Artistas</h2>
                     <p>En el guaguanco podremos ver artistas internacionales de la talla de Maykel Fonts o Yoannis
                         Tamayo, si aun no sabes quienes son te animo a verlos en youtube.
                         Aprenderas distintos estilos y interpretaciones de esta maravillosa musica que nos brindaran en
@@ -121,89 +204,83 @@
                         Cano y Geyza.
                     </p>
                 </div>
-                <div class="cards-contain">
-                    <div class="card">
-                        <div class="image">
-                            <img src="../img/jorge.png" />
-                        </div>
-                        <div class="details">
-                            <div class="center">
-                                <h1>Jorge Camawey<br><span>Maestro y Director</span></h1>
-                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="card">
-                        <div class="image">
-                            <img src="../img/maykel.png" />
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../img/maykel.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Maykel Fonts</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="details">
-                            <div class="center">
-                                <h1>Maykel Fonts<br><span>Artista y Actor</span></h1>
-                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-
-                    <div class="card">
-                        <div class="image">
-                            <img src="../img/hector.png" />
+                    <div class="col">
+                      <div class="card">
+                        <img src="../img/jorge.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Jorge Camawey</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="details">
-                            <div class="center">
-                                <h1>Hector Oviedo<br><span>Artista Abakua</span></h1>
-                                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../img/hector.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hector Oviedo</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                         </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../img/yeni.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yeni Molinet</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="link-artist" href="http://www.guaguancofestival.com/artists.html">Para ver todos los artistas
+                      clica aquí.</a>
+            </section>
+            <!--ARTISTAS Finish-->
+             <!--Campeonato Start-->
+            <section class="mt-5 pt-5 gap-5 flex-wrap p-sm-5">
+                <h3 class="text-center text-danger text-decoration-underline">Campeonato</h3>
+                <div class="row m-auto">
+                    <div class="col col-sm-6 m-auto">
+                        <h4>Timba</h4>
+                        <p>Bases: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque itaque in odio soluta reprehenderit sapiente accusantium necessitatibus quibusdam sequi quasi!</p>
+                    </div>
+                    <div class="col-sm-4 pb-5 m-sm-2">
+                        <img min-width="240" class="img-fluid" src="../img/comptTimba.png" alt="">
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div class="col col-sm-6 m-auto ">
+                        <h4>Columbia</h4>
+                        <p>Bases: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque itaque in odio soluta reprehenderit sapiente accusantium necessitatibus quibusdam sequi quasi!</p>
+                    </div>
+                    <div class="col-sm-4 pb-5 m-sm-2">
+                        <img min-width="240" class="img-fluid" src="../img/competiRumba.png" alt="">
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div class="col col-sm-6 m-auto">
+                        <h4>Son</h4>
+                        <p>Bases: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque itaque in odio soluta reprehenderit sapiente accusantium necessitatibus quibusdam sequi quasi!</p>
+                    </div>
+                    <div class="pb-5 col-sm-4 m-sm-2">
+                        <img min-width="240" class="img-fluid" src="../img/competiSon.png" alt="">
                     </div>
                 </div>
             </section>
-            <a class="link-artist" href="http://www.guaguancofestival.com/artists.html">Para ver todos los artistas
-                clica aquí.</a>
-
+             <!--Campeonato Finish-->
         </main>
-
-
         <!--Main Finish-->
-        <!--
-    Aside Start
-    <aside>
-        <article>
-            <h3>Historia del Festival</h3>
-            <div>
-                <a href="#"><img src="" alt="OTHER"></a>
-            </div>
-        </article>
-        <article>
-            <h3>Campeonato</h3>
-            <div>
-                <a href="#"><img src="" alt="OTHER"></a>
-            </div>
-        </article>
-        <article>
-            <h3>Shows</h3>
-            <div>
-                <a href="#"><img src="" alt="OTHER"></a>
-            </div>
-        </article>
-    </aside>
-    Aside Finish-->
 
         <!--Footer Start-->
         <footer class="d-flex justify-content-center align-items-center py-3 my-md-4 border-top">
