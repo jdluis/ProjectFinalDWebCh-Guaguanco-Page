@@ -91,62 +91,43 @@
           <!--Header-Nav Finish-->
 
         <!--Main Start-->
-        <main class="main">
+        <main class="container">
             <!--Section Start-->
-            <div class="flex-2x2">
-                <div class="text">
-                    <h2 class="title-3 animate-text">Contactame</h2>
-                    <p class="text-importante">"Utiliza el medio que mas comodo te resulte, te contesto lo antes
+            <div class="row">
+                <div class="col-md-6 mt-5 m-auto">
+                    <h2 class="text-center text-decoration-underline text-danger">Contactame</h2>
+                    <p class="text-center">"Utiliza el medio que mas comodo te resulte, te contesto lo antes
                         posible, recuerda que si no encuentras lo que necesitas puedo crearlo para ti."</p>
                 </div>
-                <div class="flex-3x3 animate-social">
-                    <div class="flex-3x3__element2">
+                <div class="col-md-6 m-auto text-center">     
                         <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i class="fab fa-3x fa-instagram">
                             </i> </a>
-
-                    </div>
-                    <div class="flex-3x3__element2">
                         <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i
                                 class="fab fa-3x fa-facebook footer-list__item"></i></a>
-                    </div>
-                    <div class="flex-3x3__element2">
                         <i class="fab fa-whatsapp fa-3x footer-list__item"></i>
                         <a href="https://wa.me/34608991469"></a>
-                    </div>
                 </div>
             </div>
             <!--Section Finish-->
 
             <!--Form Start-->
-            <form class="form">
-                <fieldset>
-                    <div class="form-col animate-form">
-                        <legend>Contactame para lo que necesites</legend>
-                        <input type="text" name="name" id="name" placeholder="Introduce tu nombre" required>
-                        <input type="email" name="lastName" id="lastName" placeholder="Introduce tu email" required>
-
-                        <label for="categorias">Asunto: </label>
-                        <select name="categorias" id="categoria" required>
-                            <option value="" disabled selected></option>
-                            <option value="vuelo">Evento</option>
-                            <option value="evento">Vuelo</option>
-                            <option value="transporte">Hotel</option>
-                            <option value="transporte">Transporte</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                        <textarea placeholder="Describa brevemente su problema o duda:" id="mensaje" cols="40" rows="5"
-                            required></textarea>
-                        <div>
-                            <label for="newsletter">¿Desea recibir el Newsletter?</label>
-                            <input type="checkbox" value="si" id="newsletter" id="newsletter">
-                        </div>
-                        <div>
-
-                            <input type="reset" value="Reset">
-                            <input class="submit" type="submit" value="Enviar">
-                        </div>
-                    </div>
-                </fieldset>
+            <form class="shadow-lg border-1 border-dark m-2 p-4">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <div id="nameHelp" class="form-text">We'll never share your Name with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class=" mb-3 form-floating">
+                <textarea style="min-height: 150px;" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <button type="reset" class="btn btn-danger">Reset</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             <!--Form Finish-->
         </main>
