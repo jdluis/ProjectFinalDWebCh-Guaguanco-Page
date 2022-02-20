@@ -61,12 +61,14 @@ z-index: 100;
 /************************
 ESTILOS GENERALES FINISH
 ************************/
-
+nav a {
+color: red;
+}
 
 /*************
-ANIMTATIONS
+ANIMATIONS START
 **************/ 
-/*Animacion rotacion img*/
+/*Animation rotate img*/
 .rotate-img {
   transform:skew(5deg,4deg);
   box-shadow: 2px 15px 5px #999;
@@ -78,7 +80,7 @@ ANIMTATIONS
     }
 }
 
-/*ANIMACION SCROLL*/
+/*Animation scroll*/
  @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
 .reveal{
@@ -92,3 +94,8 @@ ANIMTATIONS
   transform: translateY(0);
   opacity: 1;
 }
+
+
+/****************
+ANIMTATIONS FINISH
+******************/ 
