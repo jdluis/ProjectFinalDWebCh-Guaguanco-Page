@@ -57,10 +57,14 @@ body {
 /************************
 ESTILOS GENERALES FINISH
 ************************/
+nav a {
+  color: red;
+}
+
 /*************
-ANIMTATIONS
+ANIMATIONS START
 **************/
-/*Animacion rotacion img*/
+/*Animation rotate img*/
 .rotate-img {
   transform: skew(5deg, 4deg);
   box-shadow: 2px 15px 5px #999;
@@ -72,7 +76,7 @@ ANIMTATIONS
   transition: 1s ease-out;
 }
 
-/*ANIMACION SCROLL*/
+/*Animation scroll*/
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -83,4 +87,8 @@ ANIMTATIONS
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
-}/*# sourceMappingURL=general.css.map */
+}
+
+/****************
+ANIMTATIONS FINISH
+******************//*# sourceMappingURL=general.css.map */
