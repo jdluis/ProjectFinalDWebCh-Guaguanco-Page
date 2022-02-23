@@ -1,0 +1,30 @@
+
+/*Animation rotate img*/
+.rotate-img {
+    transform:skew(5deg,4deg);
+    box-shadow: 2px 15px 5px #999;
+    border:1px solid black;
+    transition: 1.5s ease-in-out;
+    &:hover{
+        transform:skew(0deg,0deg);
+        transition: 1s ease-out;
+      }
+  }
+  
+  
+  
+  /*Animation scroll*/
+   @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+  
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
