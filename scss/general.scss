@@ -57,14 +57,27 @@ z-index: 100;
 }
 
 
-
-
 /************************
 ESTILOS GENERALES FINISH
 ************************/
-nav a {
-color: red;
+
+
+
+/************************
+ESTILOS ESPECIFICOS START
+************************/
+
+.menu-fontS > a {
+  font-size: clamp(20px, 1.6vw, 30px);
+  &:hover {
+    color:  var(--quantenary);
+  }
 }
+
+/************************
+ESTILOS ESPECIFICOS FINISH
+************************/
+
 
 /*************
 ANIMATIONS START
@@ -82,9 +95,6 @@ ANIMATIONS START
 }
 
 
-.menu-fontS > a {
-  font-size: clamp(20px, 1.6vw, 30px);
-}
 
 /*Animation scroll*/
  @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');

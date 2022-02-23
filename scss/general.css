@@ -57,10 +57,19 @@ body {
 /************************
 ESTILOS GENERALES FINISH
 ************************/
-nav a {
-  color: red;
+/************************
+ESTILOS ESPECIFICOS START
+************************/
+.menu-fontS > a {
+  font-size: clamp(20px, 1.6vw, 30px);
+}
+.menu-fontS > a:hover {
+  color: var(--quantenary);
 }
 
+/************************
+ESTILOS ESPECIFICOS FINISH
+************************/
 /*************
 ANIMATIONS START
 **************/
@@ -74,10 +83,6 @@ ANIMATIONS START
 .rotate-img:hover {
   transform: skew(0deg, 0deg);
   transition: 1s ease-out;
-}
-
-.menu-fontS > a {
-  font-size: clamp(20px, 1.6vw, 30px);
 }
 
 /*Animation scroll*/
