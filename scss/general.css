@@ -76,6 +76,10 @@ ANIMATIONS START
   transition: 1s ease-out;
 }
 
+.menu-fontS > a {
+  font-size: clamp(20px, 1.6vw, 30px);
+}
+
 /*Animation scroll*/
 .reveal {
   position: relative;
