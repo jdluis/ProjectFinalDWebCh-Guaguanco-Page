@@ -23,7 +23,7 @@
   transition: 1s all ease;
 }
 
-.reveal.active {
+.active {
   transform: translateY(0);
   opacity: 1;
 }
