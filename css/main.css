@@ -28,9 +28,9 @@
   opacity: 1;
 }
 
-/*****************
- ESTILOS GENERALES 
- *****************/
+/*tamaño letras*/
+/*paleta de colores*/
+/*RESET STYLES*/
 * {
   padding: 0;
   margin: 0;
@@ -42,19 +42,9 @@
   font-family: "Exo", Arial, Helvetica, sans-serif;
 }
 
-:root {
-  /*tamaño letras*/
-  --size-h1: 40px;
-  --size-h2: 20px;
-  --size-text: 22px;
-  /*paleta de colores*/
-  --primary: #569bbf;
-  --secondary: rgb(27, 62, 175);
-  --tertiary: #392791;
-  --quantenary: #e02124;
-  --quintenary: #8f2929;
-}
-
+/*****************
+ ESTILOS GENERALES 
+ *****************/
 body {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
@@ -68,7 +58,7 @@ body {
 
 .btn-hover:hover {
   opacity: 0.7;
-  color: var(--quantenary);
+  color: #e02124;
   font-weight: 700;
 }
 
@@ -81,20 +71,13 @@ body {
 }
 
 /************************
-ESTILOS GENERALES FINISH
-************************/
-/************************
-ESTILOS ESPECIFICOS START
+ESTILOS ESPECIFICOS
 ************************/
 .menu-fontS > a {
   font-size: clamp(20px, 1.6vw, 30px);
 }
 .menu-fontS > a:hover {
-  color: var(--quantenary);
+  color: #e02124;
 }
 
-/************************
-ESTILOS ESPECIFICOS FINISH
-************************/
-
-/*# sourceMappingURL=general.css.map */
+/*# sourceMappingURL=main.css.map */
