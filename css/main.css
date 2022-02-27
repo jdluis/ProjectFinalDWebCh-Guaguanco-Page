@@ -2,8 +2,8 @@
 /*Google Fonts-Fuente de texto Exo.*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*Otros estilos*/
-/*Animation rotate img*/
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+/*Animation rotate img*/
 .rotate-img {
   transform: skew(5deg, 4deg);
   box-shadow: 2px 15px 5px #999;
@@ -30,6 +30,26 @@
 
 /*tamaño letras*/
 /*paleta de colores*/
+.azulClaro {
+  background-color: #569bbf;
+}
+
+.azul {
+  background-color: #1b3eaf;
+}
+
+.purpura {
+  background-color: #392791;
+}
+
+.rojo {
+  background-color: #e02124;
+}
+
+.rojoDark {
+  background-color: #8f2929;
+}
+
 /*RESET STYLES*/
 * {
   padding: 0;

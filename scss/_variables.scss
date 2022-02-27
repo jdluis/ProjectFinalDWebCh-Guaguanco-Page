@@ -5,11 +5,27 @@
   $size-text: 22px;
   
   
-  /*paleta de colores*/
-  $primary: #569bbf;
-  $secondary: rgb(27, 62, 175);
-  $tertiary: #392791;
-  $quantenary: #e02124;
-  $quintenary: #8f2929;
+/*paleta de colores*/
+$primary: #569bbf;
+$secondary: rgb(27, 62, 175);
+$tertiary: #392791;
+$quantenary: #e02124;
+$quintenary: #8f2929;
+ 
+$paleta: (
+  "azulClaro": $primary,
+  "azul": $secondary,
+  "purpura": $tertiary,
+  "rojo": $quantenary,
+  "rojoDark": $quintenary,
+
+);
+
+  @each $espacio, $color in $paleta {
+    .#{$espacio} {
+      background-color: #{$color};
+    }
+  }
+
   
   
