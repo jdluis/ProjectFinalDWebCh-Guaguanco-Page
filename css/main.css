@@ -30,6 +30,7 @@
 
 /*tamaño letras*/
 /*paleta de colores*/
+/*Map*/
 .azulClaro {
   background-color: #569bbf;
 }
@@ -78,7 +79,7 @@ body {
 
 .btn-hover:hover {
   opacity: 0.7;
-  color: #e02124;
+  /*map-Get*/
   font-weight: 700;
 }
 

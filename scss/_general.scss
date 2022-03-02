@@ -27,7 +27,8 @@
   
   .btn-hover:hover {
     opacity: 0.7;
-    color: $quantenary;
+    /*map-Get*/
+    color: map-get($paleta, quantenary);
     font-weight: 700;
   }
   
