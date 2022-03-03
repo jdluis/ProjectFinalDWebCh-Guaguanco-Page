@@ -7,7 +7,6 @@
     -moz-box-sizing: border-box;
     -moz-box-sizing: border-box;
     list-style: none;
-    font-family: "Exo", Arial, Helvetica, sans-serif;
   }
 
 /*****************
@@ -28,7 +27,7 @@
   .btn-hover:hover {
     opacity: 0.7;
     /*map-Get*/
-    color: map-get($paleta, quantenary);
+    color: map-get($paleta, rojo);
     font-weight: 700;
   }
   
@@ -48,7 +47,7 @@ ESTILOS ESPECIFICOS
 .menu-fontS > a {
     font-size: clamp(20px, 1.6vw, 30px);
     &:hover {
-      color: $quantenary;
+      color: map-get($paleta, rojo);
     }
   }
 

@@ -1,0 +1,23 @@
+
+$niveles:(avanzado:red, intermedio: green , principiante:yellow);
+
+
+
+.programLevels {
+    background-color: #fdd;
+    font-style: oblique;
+    font-weight: bolder;
+  
+    &--avanzado {
+      @extend .programLevels;
+      background-color: map-get($niveles, avanzado);
+    }
+    &--intermedio {
+      @extend .programLevels;
+      background-color: map-get($niveles, intermedio);
+      }
+    &--basico {
+      @extend .programLevels;
+      background-color: map-get($niveles, "principiante");
+    }
+  };
