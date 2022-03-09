@@ -11145,6 +11145,20 @@ textarea.form-control-lg {
   opacity: 1;
 }
 
+.inFront {
+  z-index: 0;
+  opacity: 0.8;
+  background-color: #dc3545;
+  cursor: pointer;
+  transition: 500ms;
+}
+.inFront:hover {
+  z-index: 50;
+  opacity: 1;
+  transform: scale(1.5);
+  transition: 500ms;
+}
+
 .programLevels, .programLevels--basico, .programLevels--intermedio, .programLevels--avanzado {
   background-color: #fdd;
   font-style: oblique;

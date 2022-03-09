@@ -25,6 +25,19 @@
     transform: translateY(0);
     opacity: 1;
   }
-  
+
  
-  
+ //Zoom "galeria" de eventos
+  .inFront {
+    z-index: 0;
+    opacity: .8;
+    background-color: $danger;
+    cursor: pointer;
+    transition: 500ms;
+   &:hover {
+    z-index: 50;
+    opacity: 1;
+    transform: scale(1.5);
+    transition: 500ms;
+  }
+}
