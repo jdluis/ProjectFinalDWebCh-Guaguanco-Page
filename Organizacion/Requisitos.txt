@@ -1,9 +1,0 @@
-1) 5 secciones minimas, es decir 5 paginas en 5 archivos:
-    Inicio o Portada, Proyectos, Equipo, About Us, Contacto.
-
-2) Contenido:
-    Imagenes, hyperlinks, estructura, manejo de grids,
-    uso de framework, SEO, animacion y responsive desing.
-
-3) Tema a elegir por mi:
-    Proyecto de compañia de juegos con mis primos, ejem-->prisgames.com
