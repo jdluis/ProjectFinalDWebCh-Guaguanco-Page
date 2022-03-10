@@ -1,4 +1,26 @@
+
+
 {
+  "name": "Promo Guaguancó Danideluis",
+  "version": "1.0.0",
+  "description": "Pagina para la promocion del festival guaguancó 2022 que tendra lugar en Lloret del Mar en Mayo de 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "baile",
+    "guaguanco",
+    "congreso",
+    "festival",
+    "internacional",
+    "camawey",
+    "rumba",
+    "salsa cubana",
+    "promocion"
+  ],
+  "author": "Jose Daniel De Luis Ramirez jdluisdev@gmail.com (https://jdluis.com/)",
+  "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
@@ -7,3 +29,6 @@
     "bootstrap": "^5.1.3"
   }
 }
+
+
+
