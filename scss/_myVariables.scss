@@ -29,6 +29,7 @@ $paleta: (
   "rojoDark": $dark,
 );
 
+
   @each $name, $color in $paleta {
     .#{$name} {
       background-color: #{$color};
@@ -38,15 +39,4 @@ $paleta: (
   
   /*paddings*/
 
- // Source mixin
-@mixin make-container($padding-x: $container-padding-x) {
-  width: 70%;
- 
-  margin-right: auto;
-  margin-left: auto;
-}
-
-// Usage
-.custom-container {
-  @include make-container();
-}
+  $container-padding-x: 0!important;

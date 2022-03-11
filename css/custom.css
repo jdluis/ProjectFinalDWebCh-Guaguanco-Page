@@ -11199,12 +11199,6 @@ textarea.form-control-lg {
 }
 
 /*paddings*/
-.custom-container {
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /*RESET STYLES*/
 * {
   padding: 0;
