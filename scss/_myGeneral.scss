@@ -7,6 +7,7 @@
     -moz-box-sizing: border-box;
     -moz-box-sizing: border-box;
     list-style: none;
+    font-family: $font-family-sans-serif;
   }
 
 /*****************
@@ -43,8 +44,9 @@
   /************************
 ESTILOS ESPECIFICOS
 ************************/
-
+//Hover de los links nav
 .menu-fontS > a {
+    text-decoration: none;
     font-size: clamp(20px, 1.6vw, 30px);
     &:hover {
       color: map-get($paleta, rojo);
