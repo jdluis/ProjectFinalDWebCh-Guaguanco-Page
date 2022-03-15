@@ -43,6 +43,11 @@ body {
 /************************
 ESTILOS ESPECIFICOS
 ************************/
+@each $name, $color in $paleta {
+  .#{$name} {
+    background-color: #{$color};
+  }
+}
 
 .programLevels {
   background-color: #fdd;
@@ -62,3 +67,5 @@ ESTILOS ESPECIFICOS
     background-color: map-get($niveles, principiante);
   }
 }
+
+

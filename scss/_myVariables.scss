@@ -9,12 +9,16 @@ $font-family-sans-serif: "Exo", sans-serif;
 /*Colors*/
 $primary: rgb(27, 62, 175);
 $secondary: #392791;
-$success: $green !default;
 $info: #569bbf;
-$warning: $yellow !default;
 $danger: #e02124;
-$light: $gray-100 !default;
 $dark: #8f2929;
+
+/*Nivel de Programa Evento*/
+$niveles: (
+  avanzado: red,
+  intermedio: green,
+  principiante: yellow,
+);
 
 /*Map*/
 $paleta: (
@@ -25,19 +29,7 @@ $paleta: (
   "rojoDark": $dark,
 );
 
-@each $name, $color in $paleta {
-  .#{$name} {
-    background-color: #{$color};
-  }
-}
-
 /*paddings*/
 
 $container-padding-x: 0 !important;
 
-/*Nivel de Programa Evento*/
-$niveles: (
-  avanzado: red,
-  intermedio: green,
-  principiante: yellow,
-);
