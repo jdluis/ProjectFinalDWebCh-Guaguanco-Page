@@ -3,6 +3,9 @@ $size-h1: 40px;
 $size-h2: 20px;
 $size-text: 22px;
 
+
+
+
 /*font family*/
 $font-family-sans-serif: "Exo", sans-serif;
 
@@ -18,18 +21,27 @@ $niveles: (
   avanzado: red,
   intermedio: green,
   principiante: yellow,
-);
+  );
+  
+  /*Map*/
+  $paleta: (
+    "azulClaro": $info,
+    "azul": $primary,
+    "purpura": $secondary,
+    "rojo": $danger,
+    "rojoDark": $dark,
+    );
+    
+    /*paddings*/
+    
+    $container-padding-x: 0 !important;
+    
+    /*BTN*/
+    
+    $btn-padding-y:  .5rem;
+    $btn-padding-x:  4rem;
+    $btn-font-size:   1em;
+    $btn-font-weight:  bolder;
 
-/*Map*/
-$paleta: (
-  "azulClaro": $info,
-  "azul": $primary,
-  "purpura": $secondary,
-  "rojo": $danger,
-  "rojoDark": $dark,
-);
-
-/*paddings*/
-
-$container-padding-x: 0 !important;
-
+    
+  
