@@ -1,23 +1,23 @@
+/*NAV LINKS*/
 
-$niveles:(avanzado:red, intermedio: green , principiante:yellow);
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffcc00;
+}
 
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: $primary;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: clamp(20px, 1.6vw, 30px);
+}
 
-
-.programLevels {
-    background-color: #fdd;
-    font-style: oblique;
-    font-weight: bolder;
-  
-    &--avanzado {
-      @extend .programLevels;
-      background-color: map-get($niveles, avanzado);
-    }
-    &--intermedio {
-      @extend .programLevels;
-      background-color: map-get($niveles, intermedio);
-      }
-    &--basico {
-      @extend .programLevels;
-      background-color: map-get($niveles, "principiante");
-    }
-  };
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  background-color: red;
+  color: white;
+}

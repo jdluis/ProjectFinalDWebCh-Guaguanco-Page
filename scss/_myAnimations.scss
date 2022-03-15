@@ -1,40 +1,36 @@
-
 /*Animation rotate img*/
 .rotate-img {
-    transform:skew(5deg,4deg);
-    box-shadow: 2px 15px 5px #999;
-    border:1px solid black;
-    transition: 1.5s ease-in-out;
-    &:hover{
-        transform:skew(0deg,0deg);
-        transition: 1s ease-out;
-      }
+  transform: skew(5deg, 4deg);
+  box-shadow: 2px 15px 5px #999;
+  border: 1px solid black;
+  transition: 1.5s ease-in-out;
+  &:hover {
+    transform: skew(0deg, 0deg);
+    transition: 1s ease-out;
   }
-  
-  
-  
-  /*Animation scroll*/
-  
-  
-  .reveal{
-    position: relative;
-    transform: translateY(50px);
-    opacity: 0;
-    transition: 900ms all ease;
-  } .active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+}
 
- 
- //Zoom "galeria" de eventos
-  .inFront {
-    z-index: 0;
-    opacity: .8;
-    background-color: $danger;
-    cursor: pointer;
-    transition: 500ms;
-   &:hover {
+/*Animation scroll*/
+
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 900ms all ease;
+}
+.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+//Zoom "galeria" de eventos
+.inFront {
+  z-index: 0;
+  opacity: 0.8;
+  background-color: $danger;
+  cursor: pointer;
+  transition: 500ms;
+  &:hover {
     z-index: 50;
     opacity: 1;
     transform: scale(1.5);
