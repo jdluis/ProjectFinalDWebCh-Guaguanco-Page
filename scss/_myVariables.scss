@@ -1,0 +1,56 @@
+/*Font size*/
+$size-h1: 40px;
+$size-h2: 20px;
+$size-text: 22px;
+
+
+
+
+/*font family*/
+$font-family-sans-serif: "Exo", sans-serif;
+
+/*Colors*/
+$primary: rgb(27, 62, 175);
+$secondary: #392791;
+$info: #569bbf;
+$danger: #e02124;
+$dark: #8f2929;
+
+/*Nivel de Programa Evento*/
+$niveles: (
+  avanzado: rgba(231, 14, 14, 0.8),
+  intermedio: rgba(0, 218, 0, 0.8),
+  principiante: rgba(250, 145, 7, 0.8),
+  );
+  
+  /*Map*/
+  $paleta: (
+    "azulClaro": $info,
+    "azul": $primary,
+    "purpura": $secondary,
+    "rojo": $danger,
+    "rojoDark": $dark,
+    );
+    
+    /*paddings*/
+    
+    $container-padding-x: 0 !important;
+    
+    /*BTN*/
+    
+    $btn-padding-y:  .5rem;
+    $btn-padding-x:  4rem;
+    $btn-font-size:   1em;
+    $btn-font-weight:  bolder;
+
+    
+
+    // Carousel indicators
+
+$carousel-indicator-width:           40px ;
+$carousel-indicator-height:          6px ;
+$carousel-indicator-opacity:         .6 ;
+$carousel-indicator-active-bg:       $primary;
+
+
+  

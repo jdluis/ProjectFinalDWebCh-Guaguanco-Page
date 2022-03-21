@@ -5,138 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información Guaguancó Festival</title>
+    <title>Te ayudo con la reserva del Hotel | Guaguancó Festival 2022</title>
     <meta name="author" content="www.jdluis.com" />
     <meta name="copyright" content="jdluis" />
     <meta name="description"
-        content="Te brindo toda la informacion actualizada del Guaguancó Festival 2022 | si vienes de Canarias yo soy tu Promotor" />
-    <meta name="keywords" content="guaguanco, festival, canarias, promo, informacion, codigo promotor" />
+        content="Información relativa al propio hotel del festival, modos de reservar y otras opciones" />
+    <meta name="keywords" content="guaguanco, festival, canarias, promomocion, baile, cubano, rumba, casino, timba, información, codigo, promotor, general, promo, hotel, reserva" />
 
     <!--Links Start-->
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/hotel.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/custom.css">
     <!--Links Finish-->
     <script src="https://kit.fontawesome.com/3ffbeed2f4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!--Contenedor Padre Start-->
-    <div class="container">
-        <!--Header-Nav Start-->
-        <header class="header">
-            <nav class="header-nav">
-                <ul class="header-nav__list textUp">
-                    <li class="header-nav__item">
-                        <a href="../index.html" class="header-nav__link">Inicio</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="evento.html" class="header-nav__link">Evento</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="hotel.html" class="header-nav__link">Hotel</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="transporte.html" class="header-nav__link">Transporte</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="contacto.html" class="header-nav__link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header-logo">
-                <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png"
-                        alt="logo promotor dani de luis"></a>
+        <!--Contenedor Padre Start-->
+        <div class="container-md bg-light overflow-hidden">
+          <!--Header-Nav Start-->
+          <nav class="mt-xxl-5 pe-4 border-bottom container-md navbar navbar-light navbar-expand-lg bg-light sticky-top">
+            <div class="container">
+              <a class="navbar-brand  ms-4 ps-2" href="../index.html"
+                ><img
+                  class="rounded-circle"
+                  src="../img/dani_orig.png"
+                  width="50"
+                  height="50"
+                  alt="logo promotor dani de luis guaguanco festival"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h2>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body front-comp navbar-custom">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                   <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                   <li class="nav-item"><a href="evento.html" class="nav-link">Evento</a></li>
+                   <li class="nav-item active"><a href="hotel.html" class="nav-link">Hotel</a></li>
+                   <li class="nav-item"><a href="transporte.html" class="nav-link">Transporte</a></li>
+                   <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </header>
-        <!--MOBILE Header-Nav Start-->
-        <header class="header-mv hidden">
-            <input type="checkbox" id="btnControl" />
-            <label id="btn-nav" for="btnControl"><i class="fas fa-3x fa-ellipsis-h"></i>
-                <nav class="mvHeader-nav hidden">
-                    <ul class="mv-nav__list textUp">
-                        <li class="header-nav__item">
-                            <a href="../index.html" class="header-nav__link">Inicio</a>
-                        </li>
-                        <li class="header-nav__item">
-                            <a href="evento.html" class="header-nav__link">Evento</a>
-                        </li>
-                        <li class="header-nav__item">
-                            <a href="hotel.html" class="header-nav__link">Hotel</a>
-                        </li>
-                        <li class="header-nav__item">
-                            <a href="transporte.html" class="header-nav__link">Transporte</a>
-                        </li>
-                        <li class="header-nav__item">
-                            <a href="contacto.html" class="header-nav__link">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-            </label>
-            <div class="header-logo">
-                <a class="header-logo__link" href="/"><img class="header-logo__img" src="../img/dani_orig.png"
-                        alt="logo promotor dani de luis"></a>
-            </div>
-        </header>
-        <!--MOBILE Header-Nav Finish-->
+          </nav>
+          <!--Header-Nav Finish-->
         <!--Main Content Start-->
-        <main class="main">
+        <main class="container pb-5 pt-5 container  animate__animated animate__slower animate__fadeIn">
             <!--Hotel-Intro Start-->
-            <section class="intro-contain">
-                <h2 class="title-2">Evenia Olympic Resort</h2>
-                <div class="video-contain">
-                    <iframe height="350" src="https://www.youtube.com/embed/0C5flMvHUcU" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+            <section class=" m-auto">
+                <h1 class="text-center text-danger text-decoration-underline">Evenia Olympic Resort</h1>
+                <div class="ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJDe9TlVsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="text">
-                    <blockquote>Hotel 4 estrellas especializado en acoger congresos de baile de todo tipo (mas de 15 al
+                    <blockquote class="text-center">Hotel 4 estrellas especializado en acoger congresos de baile de todo tipo (más de 15 al
                         año)</blockquote>
-                </div>
+                
             </section>
             <!--Hotel-Intro Finish-->
 
             <!--reserva-option Start-->
-            <section class="reserva-contain">
-                <div>
-                    <h3 class="title-3">¿Como reservar?</h3>
+            <section class="row ">
+                <div class="row mt-5 reveal">
+                    <h2 class="text-center text-danger text-decoration-underline">Opciones de reserva</h2>
                 </div>
-                <div class="flex-3x3">
-                    <div class="flex-3x3__element">
-                        <h4 class="title-4">Paga y disfruta</h4>
+                <div class="row text-center p-5 gap-4">
+                    <div class="col-sm border-1 shadow-lg reveal">
+                        <h3 class="text-primary">Paga y disfruta</h3>
                         <p>Despreocupate de estar pendiente de entrar en la web, llamando por equivocaciones o cambios
                             inesperados, yo me ocupo de todo.</p>
                     </div>
-                    <div class="flex-3x3__element">
-                        <h4 class="title-4">Paga a un conocido</h4>
-                        <p>Mucha gente ya tiene su Habitacion pero prefiere compartir la experiencia, solamente contacta
+                    <div class="col-sm border-1 shadow-lg reveal">
+                        <h3 class="text-primary">Paga a un conocido</h3>
+                        <p>Mucha gente ya tiene su Habitación, pero prefiere compartir la experiencia, solamente contacta
                             con ellos y paga la diferencia.</p>
                     </div>
-                    <div class="flex-3x3__element">
-                        <h4 class="title-4">Hazlo tu mismo</h4>
+                    <div class="col-sm border-1 shadow-lg reveal">
+                        <h3 class="text-primary">Hazlo tu mismo</h3>
                         <p>Si prefieres controlar lo que pasa en todo momento por tu propia mano esta es la mejor
-                            opcion.</p>
+                            opción.</p>
                     </div>
                 </div>
             </section>
             <!--reserva-option Finish-->
 
             <!--como reservar Start-->
-            <section class="reservaTutorial">
-                <h3 class="title-3">¿Como reservar tu habitacion?</h3>
-                <div class="flex-2x2">
-                    <div class="img-container">
-                        <a href="http://www.guaguancofestival.com/hotel.html" target="_blank"><img
-                                src="../img/hotelTutorial.gif" alt="hotel reserva tutorial"></a>
+            <section class="container p-0">
+                <h2 class="text-center text-danger text-decoration-underline reveal">¿Cómo reservar tu habitacion?</h2>
+                <div class="row mt-5">
+                    <div class="col-lg-7 m-auto reveal">
+                        <a href="http://www.guaguancofestival.com/hotel.html" target="_blank"><img class="img-fluid"
+                                src="../img/hotelTutorial.gif" alt="hotel reserva tutorial guaguancofestival"></a>
                     </div>
-                    <div>
-                        <p>El primer paso es clicar sobre la imgen que ves aqui al lado o acceder directamente a la
-                            pagina del guaguanco, luego iremos a la pestaña Hotel, una vez alli buscaremos donde ponga
-                            <span class="text-importante">"RESERVAR TU HABITACION"</span>, una vez en la pagina del
-                            hotel solo tendremos que confirrmar las fechas, tipo de habitacion (doble o triple) y seguir
-                            los pasos tal y como vemos en la imagen.</p>
+                    <div class="col-lg-4 p-2 mt-2 m-auto">
+                      <ol class="list-group-item-danger list-group-numbered reveal">
+                        <li class="fs-5 p-2">El primer paso es clicar sobre la imagen que ves aquí al lado o acceder directamente a la
+                          página del guaguanco.</li>
+                          <li class="fs-5 p-2">Luego iremos a la pestaña Hotel, una vez allí buscaremos donde ponga
+                            <span class="text-importante">"RESERVAR TU HABITACION"</span>. </li>
+                            <li class="fs-5 p-2">Una vez en la página del hotel solo tendremos que confirmar las fechas, tipo de habitación (doble o triple) y seguir
+                              los pasos tal y como vemos en la imagen.</p></li>
+                      </ol>
                     </div>
                 </div>
             </section>
@@ -145,64 +138,77 @@
         <!--Main Content Finish-->
 
         <!--Aside Start-->
-        <aside class="aside">
-            <h2 class="title-3">Otros Hoteles</h2>
-            <div class="flex-3x3">
-                <article class="flex-3x3__element">
-                    <div>
-                        <img src="/img/hotelTutorial.gif" alt="">
+        <aside class="container-fluid">
+            <h3 class="text-center text-danger text-decoration-underline reveal">Other Hotels</h3>
+                <div class="row row-cols-1 row-cols-lg-3 g-4">
+                  <div class="col-sm-6 col-lg reveal">
+                    <div class="card ">
+                    <a href="https://es.eveniahotels.com/playa/lloret-de-mar/evenia-olympic-suites"><img src="../img/hotelolympicsuite.png" class="card-img-top" alt="hotel Olympic Suite lloret del mar"></a>  
+                      <div class="card-body">
+                        <h4 class="card-title">Evenia Olympic Suites</h4>
+                        <p class="card-text">El Hotel Evenia Olympic Suites está integrado dentro del complejo Evenia Olympic Resort por lo que es la mejor opcion si quieres seguir dentro del festival sin perderte nada.</p>
+                      </div>
                     </div>
-                    <div>
-                        <h4>Hotel alternativa 2</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
+                  </div>
+                  <div class="col-sm-6 col-lg reveal">
+                    <div class="card">
+                     <a href="https://www.mariadelmarhotel.com/"><img src="../img/hotelmariadelmar.JPG" class="card-img-top" alt="hotel maria del mar lloret del mar"></a> 
+                      <div class="card-body">
+                        <h4 class="card-title ">Hotel Maria del Mar</h4>
+                        <p class="card-text">Situado a 10 minutos caminando del evento, es la segunda mejor opción aunque el precio sea casi igual que el del evento principal.</p>
+                      </div>
                     </div>
-                </article>
-                <article class="flex-3x3__element">
-                    <div>
-                        <img src="/img/hotelTutorial.gif" alt="">
+                  </div>
+                  <div class="col d-none d-lg-block reveal">
+                    <div class="card ">
+                     <a href="https://www.xaine.com/booking.php?idm=es&mb=GHF&bookingSource=commissions&ch=2&currency=EUR&checkin=2022-03-13&checkout=2022-03-14&rooms=1&room1_adults=2&room1_children=&checc=430&gclid=EAIaIQobChMIja7Uj9O-9gIVm1UVCB3K9QF8EAoYASAAEgKrT_D_BwE"> <img src="../img/hotelxaine.png" class="card-img-top" alt="hotel Xaine lloret del mar"></a>
+                      <div class="card-body">
+                        <h4 class="card-title">Xaine SUN Apartamentos</h4>
+                        <p class="card-text">En este hotel no tendrás la calidad de los otros pero podrás seguir disfrutando del festival a 10 minutos caminando y además a un precio mas bajo.</p>
+                      </div>
                     </div>
-                    <div>
-                        <h4>Hotel alternativa 2</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
-                    </div>
-                </article>
-                <article class="flex-3x3__element">
-                    <div>
-                        <img src="/img/hotelTutorial.gif" alt="">
-                    </div>
-                    <div>
-                        <h4>Hotel alternativa 2</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, inventore.</p>
-                    </div>
-                </article>
+                  </div>
+                </div>
         </aside>
         <!--Aside Finish-->
 
         <!--Footer Start-->
-        <footer class="footer">
-            <div class="footer-item">
-                <h4 class="title-h2">Legales</h4>
-                <ul class="footer-list">
-                    <li class="footer-list__item"><a href=""></a>Acuerdos y Condiciones.</li>
-                    <li class="footer-list__item"><a href=""></a>Copyright.</li>
-                    <li class="footer-list__item"><a href=""></a>Normas de la Web.</li>
-                </ul>
+        <footer class="d-flex justify-content-center align-items-center py-3 my-md-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <span class=" text-primary">&copy;2022 jdluis, freelance</span>
             </div>
-            <div class="footer-item">
-                <h4 class="title-h2">Redes Sociales</h4>
-                <ul class="footer-list">
-                    <a href="https://www.instagram.com/guaguancofestival/?hl=es"> <i
-                            class="fab fa-2x fa-instagram footer-list__item"></i></a>
-                    <a href="https://es-es.facebook.com/GuaguancoFestival/"> <i
-                            class="fab fa-2x fa-facebook footer-list__item"></i></a>
-                    <a href="https://www.youtube.com/user/GuaguancoBCN"> <i
-                            class="fab fa-youtube fa-2x footer-list__item"></i></a>
-                </ul>
-            </div>
-        </footer>
-        <!--Footer Finish-->
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a
+                  class="link-danger" target="_blank"
+                  href="https://www.youtube.com/user/GuaguancoBCN"
+                  ><i class="fa-brands fa fa-2x fa-youtube"></i></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-danger" target="_blank"
+                  href="https://www.instagram.com/guaguancofestival/?hl=es"
+                  ><i class="fa-brands fa fa-2x fa-instagram"></i></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-primary" target="_blank"
+                  href="https://es-es.facebook.com/GuaguancoFestival/"
+                  ><i class="fa-brands fa  fa-2x fa-facebook"></i></a>
+              </li>
+            </ul>
+          </footer>
+          <!--Footer Finish-->
     </div>
     <!--Contenedor Padre Finish-->
+    <script src="../js/scrollAnimated.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>
