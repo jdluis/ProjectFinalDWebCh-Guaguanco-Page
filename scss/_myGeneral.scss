@@ -43,7 +43,7 @@ ESTILOS ESPECIFICOS
 }
 
 
-.programLevels {
+table .programLevels {
   background-color: #fdd;
   font-style: oblique;
   font-weight: bolder;
@@ -59,6 +59,18 @@ ESTILOS ESPECIFICOS
   &--basico {
     @extend .programLevels;
     background-color: map-get($niveles, principiante);
+  }
+  &--avanzadoText {
+    @extend .programLevels;
+    color: map-get($niveles, avanzado);
+  }
+  &--intermedioText {
+    @extend .programLevels;
+    color: map-get($niveles, intermedio);
+  }
+  &--basicoText {
+    @extend .programLevels;
+    color: map-get($niveles, principiante);
   }
 }
 

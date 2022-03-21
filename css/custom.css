@@ -11186,19 +11186,28 @@ ESTILOS ESPECIFICOS
   background-color: #8f2929;
 }
 
-.programLevels, .programLevels--basico, .programLevels--intermedio, .programLevels--avanzado {
+table .programLevels, table .programLevels--basicoText, table .programLevels--intermedioText, table .programLevels--avanzadoText, table .programLevels--basico, table .programLevels--intermedio, table .programLevels--avanzado {
   background-color: #fdd;
   font-style: oblique;
   font-weight: bolder;
 }
-.programLevels--avanzado {
-  background-color: red;
+table .programLevels--avanzado {
+  background-color: rgba(231, 14, 14, 0.8);
 }
-.programLevels--intermedio {
-  background-color: green;
+table .programLevels--intermedio {
+  background-color: rgba(0, 218, 0, 0.8);
 }
-.programLevels--basico {
-  background-color: yellow;
+table .programLevels--basico {
+  background-color: rgba(250, 145, 7, 0.8);
+}
+table .programLevels--avanzadoText {
+  color: rgba(231, 14, 14, 0.8);
+}
+table .programLevels--intermedioText {
+  color: rgba(0, 218, 0, 0.8);
+}
+table .programLevels--basicoText {
+  color: rgba(250, 145, 7, 0.8);
 }
 
 /*Animation rotate img*/
